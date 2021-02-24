@@ -1,0 +1,11 @@
+public class StackOverflowException extends Exception{
+
+    public StackOverflowException(String str){
+        super(str);
+    }
+
+    @Override
+    public String toString(){
+        return super.toString();
+    }
+}
